@@ -1,5 +1,5 @@
 from typing import List, TypedDict
-from c1Stdin import puzzleInput
+from puzzleInputs import day1Puzzle
 
 
 # CHALLENGE ONE
@@ -25,10 +25,10 @@ def totalFule (tot, mass) -> int:
 # SOLUTION - PART 1
 
 
-print (sum([moduleFule (m) for m in parsePuzzleIn (puzzleInput)]))
+print (sum([moduleFule (m) for m in parsePuzzleIn (day1Puzzle)]))
 
 
 # SOLUTION - PART 2
 
 
-print (sum([totalFule (0, m) for m in parsePuzzleIn (puzzleInput)]))
+print (sum([totalFule (0, m) for m in parsePuzzleIn (day1Puzzle)]))

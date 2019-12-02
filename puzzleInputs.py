@@ -1,9 +1,4 @@
-
-
-# PUZZLE 1 INPUT
-
-
-puzzleInput = """54032
+day1Puzzle = """54032
 64433
 71758
 133884
