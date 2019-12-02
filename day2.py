@@ -24,16 +24,11 @@ def resetProg (noun: int, verb: int, intcode: Intcode) -> Intcode:
     prog [2] = verb
     return prog
 
-def reset1202 (intcode: Intcode) -> Intcode:
-    intcode [1] = 12
-    intcode [2] = 2
-    return intcode
-
 print (tick (0, resetProg (12, 2, day2Puzzle)) [0])
 
 
-
 # PART 2
+
 
 def answer (noun: int, verb: int) -> int:
     return 100 * noun + verb
